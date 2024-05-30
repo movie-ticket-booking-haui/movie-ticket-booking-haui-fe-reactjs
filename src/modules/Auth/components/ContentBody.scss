@@ -1,0 +1,36 @@
+.content_body-form {
+  border-radius: 30px;
+  overflow: hidden;
+}
+.content_body-right .ant-menu-root li {
+  display: flex !important;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  border-bottom: 1px solid rgb(178, 177, 177);
+  border-right: 1px solid rgb(178, 177, 177);
+  border-radius: 0;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-top: 5px !important;
+  padding-bottom: 0px !important;
+}
+.content_body-right .ant-menu-root li span {
+  font-size: 12px;
+}
+
+.content_body-right .ant-menu-item:hover {
+  background-color: #211f1f !important; // Set the desired hover color here
+}
+.content_body-right .ant-menu-item:hover{
+    span,svg{
+        color: white;
+        >*{
+            fill: white;
+        }
+    }
+    
+}

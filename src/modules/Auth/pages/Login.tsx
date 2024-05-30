@@ -1,4 +1,5 @@
 import ContentBody from "../components/ContentBody";
+import FooterLogin from "../components/FooterLogin";
 import HeaderLogin from "../components/HeaderLogin";
 
 const LoginPage = () => {
@@ -11,6 +12,7 @@ const LoginPage = () => {
     >
       <HeaderLogin />
       <ContentBody />
+      <FooterLogin />
     </div>
   );
 };
